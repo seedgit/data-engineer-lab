@@ -6,6 +6,7 @@ import json
 
 url = 'https://covidtracking.com/api/v1/states/'
 state = 'wa'
+#https://covidtracking.com/api/v1/states/wa/current.json
 
 default_args = {
     'start_date': datetime(2021, 1, 1)
@@ -31,5 +32,6 @@ def taskflow():
         #run some analysis here
 
     analyze_testing_increases(get_testing_increase(state))
+
 
 dag = taskflow()

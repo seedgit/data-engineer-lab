@@ -1,7 +1,8 @@
-from datetime import datetime
+from datetime import datetime, time
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+
 with DAG(
     dag_id="first_python_dag",
     schedule_interval=None,
@@ -10,12 +11,27 @@ with DAG(
     tags=["example"],
 ) as dag:
 
-    def print_array():
-        import pandas as pd
-        print(pd.__version__)
-        return pd.__version__
+    def my_sleeping_function(random_base):
+        """This is a function that will run within the DAG execution"""
+        time.sleep(random_base)
 
-    run_this = PythonOperator(
-        task_id="print_the_context",
-        python_callable=print_array,
+    # Generate 5 sleeping tasks, sleeping from 0.0 to 0.4 seconds respectively
+    task = PythonOperator(
+        task_id='sleep_for_1',
+        python_callable=my_sleeping_function,
+        op_kwargs={'random_base': float(1) / 10},
     )
+
+    task2 = PythonOperator(
+        task_id='sleep_for_2',
+        python_callable=my_sleeping_function,
+        op_kwargs={'random_base': float(2) / 10},
+    )
+
+    task3 = PythonOperator(
+        task_id='sleep_for_3',
+        python_callable=my_sleeping_function,
+        op_kwargs={'random_base': float(3) / 10},
+    )
+
+    task >> task2 >> task3

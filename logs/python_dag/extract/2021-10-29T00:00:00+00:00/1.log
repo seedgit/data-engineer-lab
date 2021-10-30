@@ -1,0 +1,68 @@
+[2021-10-30 07:06:38,059] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: python_dag.extract scheduled__2021-10-29T00:00:00+00:00 [queued]>
+[2021-10-30 07:06:38,064] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: python_dag.extract scheduled__2021-10-29T00:00:00+00:00 [queued]>
+[2021-10-30 07:06:38,065] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-30 07:06:38,066] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-10-30 07:06:38,067] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-30 07:06:38,074] {taskinstance.py:1262} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2021-10-29 00:00:00+00:00
+[2021-10-30 07:06:38,077] {standard_task_runner.py:52} INFO - Started process 291 to run task
+[2021-10-30 07:06:38,080] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_dag', 'extract', 'scheduled__2021-10-29T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/python_dag.py', '--cfg-path', '/tmp/tmpxo38mm_g', '--error-file', '/tmp/tmpa5qjos7_']
+[2021-10-30 07:06:38,081] {standard_task_runner.py:77} INFO - Job 8: Subtask extract
+[2021-10-30 07:06:38,104] {logging_mixin.py:109} INFO - Running <TaskInstance: python_dag.extract scheduled__2021-10-29T00:00:00+00:00 [running]> on host a7208e2bdec4
+[2021-10-30 07:06:38,121] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_dag
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-29T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-10-29T00:00:00+00:00
+[2021-10-30 07:06:38,122] {logging_mixin.py:109} INFO - extract data
+[2021-10-30 07:06:38,124] {python.py:152} INFO - Done. Returned value was: {'data': 0}
+[2021-10-30 07:06:38,130] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=python_dag, task_id=extract, execution_date=20211029T000000, start_date=20211030T070638, end_date=20211030T070638
+[2021-10-30 07:06:38,175] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-10-30 07:06:38,192] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-10-30 07:06:38,964] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: python_dag.extract manual__2021-10-30T07:06:37.265367+00:00 [queued]>
+[2021-10-30 07:06:38,968] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: python_dag.extract manual__2021-10-30T07:06:37.265367+00:00 [queued]>
+[2021-10-30 07:06:38,969] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-30 07:06:38,972] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-10-30 07:06:38,974] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-30 07:06:38,981] {taskinstance.py:1262} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2021-10-30 07:06:37.265367+00:00
+[2021-10-30 07:06:38,986] {standard_task_runner.py:52} INFO - Started process 294 to run task
+[2021-10-30 07:06:38,996] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_dag', 'extract', 'manual__2021-10-30T07:06:37.265367+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/python_dag.py', '--cfg-path', '/tmp/tmpx3tn72l2', '--error-file', '/tmp/tmpa6pmdt73']
+[2021-10-30 07:06:39,004] {standard_task_runner.py:77} INFO - Job 9: Subtask extract
+[2021-10-30 07:06:39,036] {logging_mixin.py:109} INFO - Running <TaskInstance: python_dag.extract manual__2021-10-30T07:06:37.265367+00:00 [running]> on host a7208e2bdec4
+[2021-10-30 07:06:39,054] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_dag
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-30T07:06:37.265367+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-10-30T07:06:37.265367+00:00
+[2021-10-30 07:06:39,056] {logging_mixin.py:109} INFO - extract data
+[2021-10-30 07:06:39,056] {python.py:152} INFO - Done. Returned value was: {'data': 0}
+[2021-10-30 07:06:39,064] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=python_dag, task_id=extract, execution_date=20211030T070637, start_date=20211030T070638, end_date=20211030T070639
+[2021-10-30 07:06:39,094] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-10-30 07:06:39,106] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-10-30 07:24:28,224] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: python_dag.extract manual__2021-10-30T07:24:26.715507+00:00 [queued]>
+[2021-10-30 07:24:28,229] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: python_dag.extract manual__2021-10-30T07:24:26.715507+00:00 [queued]>
+[2021-10-30 07:24:28,230] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-30 07:24:28,231] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-10-30 07:24:28,231] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-30 07:24:28,236] {taskinstance.py:1262} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2021-10-30 07:24:26.715507+00:00
+[2021-10-30 07:24:28,238] {standard_task_runner.py:52} INFO - Started process 451 to run task
+[2021-10-30 07:24:28,242] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'python_dag', 'extract', 'manual__2021-10-30T07:24:26.715507+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/python_dag.py', '--cfg-path', '/tmp/tmpcgb_ie4o', '--error-file', '/tmp/tmpq90wf13s']
+[2021-10-30 07:24:28,243] {standard_task_runner.py:77} INFO - Job 12: Subtask extract
+[2021-10-30 07:24:28,266] {logging_mixin.py:109} INFO - Running <TaskInstance: python_dag.extract manual__2021-10-30T07:24:26.715507+00:00 [running]> on host a7208e2bdec4
+[2021-10-30 07:24:28,280] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=python_dag
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-30T07:24:26.715507+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-10-30T07:24:26.715507+00:00
+[2021-10-30 07:24:28,282] {python.py:152} INFO - Done. Returned value was: {'1001': 301.27, '1002': 433.21, '1003': 502.22}
+[2021-10-30 07:24:28,288] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=python_dag, task_id=extract, execution_date=20211030T072426, start_date=20211030T072428, end_date=20211030T072428
+[2021-10-30 07:24:28,339] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-10-30 07:24:28,351] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

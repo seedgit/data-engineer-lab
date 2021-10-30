@@ -1,0 +1,934 @@
+[2021-10-30 06:15:11,511] {processor.py:163} INFO - Started process (PID=21) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:15:11,513] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:15:11,515] {logging_mixin.py:109} INFO - [2021-10-30 06:15:11,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:15:11,572] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:15:11,761] {logging_mixin.py:109} INFO - [2021-10-30 06:15:11,761] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:15:11,767] {logging_mixin.py:109} INFO - [2021-10-30 06:15:11,767] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:15:11,777] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.269 seconds
+[2021-10-30 06:15:42,593] {processor.py:163} INFO - Started process (PID=42) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:15:42,595] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:15:42,596] {logging_mixin.py:109} INFO - [2021-10-30 06:15:42,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:15:42,625] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:15:42,741] {logging_mixin.py:109} INFO - [2021-10-30 06:15:42,741] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:15:42,756] {logging_mixin.py:109} INFO - [2021-10-30 06:15:42,756] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:15:42,763] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.172 seconds
+[2021-10-30 06:16:12,881] {processor.py:163} INFO - Started process (PID=45) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:16:12,883] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:16:12,884] {logging_mixin.py:109} INFO - [2021-10-30 06:16:12,884] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:16:12,903] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:16:12,984] {logging_mixin.py:109} INFO - [2021-10-30 06:16:12,984] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:16:12,990] {logging_mixin.py:109} INFO - [2021-10-30 06:16:12,989] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:16:13,000] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:16:43,183] {processor.py:163} INFO - Started process (PID=48) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:16:43,185] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:16:43,186] {logging_mixin.py:109} INFO - [2021-10-30 06:16:43,186] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:16:43,204] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:16:43,289] {logging_mixin.py:109} INFO - [2021-10-30 06:16:43,288] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:16:43,295] {logging_mixin.py:109} INFO - [2021-10-30 06:16:43,294] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:16:43,302] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:17:13,520] {processor.py:163} INFO - Started process (PID=51) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:17:13,523] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:17:13,526] {logging_mixin.py:109} INFO - [2021-10-30 06:17:13,526] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:17:13,561] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:17:13,712] {logging_mixin.py:109} INFO - [2021-10-30 06:17:13,712] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:17:13,724] {logging_mixin.py:109} INFO - [2021-10-30 06:17:13,723] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:17:13,733] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.216 seconds
+[2021-10-30 06:17:44,805] {processor.py:163} INFO - Started process (PID=54) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:17:44,809] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:17:44,811] {logging_mixin.py:109} INFO - [2021-10-30 06:17:44,811] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:17:44,828] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:17:44,909] {logging_mixin.py:109} INFO - [2021-10-30 06:17:44,909] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:17:44,916] {logging_mixin.py:109} INFO - [2021-10-30 06:17:44,916] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:17:44,923] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:18:15,089] {processor.py:163} INFO - Started process (PID=57) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:18:15,093] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:18:15,094] {logging_mixin.py:109} INFO - [2021-10-30 06:18:15,094] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:18:15,111] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:18:15,191] {logging_mixin.py:109} INFO - [2021-10-30 06:18:15,191] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:18:15,198] {logging_mixin.py:109} INFO - [2021-10-30 06:18:15,198] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:18:15,209] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.124 seconds
+[2021-10-30 06:18:45,376] {processor.py:163} INFO - Started process (PID=60) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:18:45,378] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:18:45,379] {logging_mixin.py:109} INFO - [2021-10-30 06:18:45,379] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:18:45,398] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:18:45,479] {logging_mixin.py:109} INFO - [2021-10-30 06:18:45,479] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:18:45,486] {logging_mixin.py:109} INFO - [2021-10-30 06:18:45,486] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:18:45,495] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.122 seconds
+[2021-10-30 06:19:15,649] {processor.py:163} INFO - Started process (PID=63) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:19:15,651] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:19:15,653] {logging_mixin.py:109} INFO - [2021-10-30 06:19:15,653] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:19:15,676] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:19:15,758] {logging_mixin.py:109} INFO - [2021-10-30 06:19:15,758] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:19:15,765] {logging_mixin.py:109} INFO - [2021-10-30 06:19:15,765] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:19:15,772] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.126 seconds
+[2021-10-30 06:19:45,948] {processor.py:163} INFO - Started process (PID=66) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:19:45,950] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:19:45,951] {logging_mixin.py:109} INFO - [2021-10-30 06:19:45,951] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:19:45,977] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:19:46,077] {logging_mixin.py:109} INFO - [2021-10-30 06:19:46,077] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:19:46,083] {logging_mixin.py:109} INFO - [2021-10-30 06:19:46,083] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:19:46,093] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.146 seconds
+[2021-10-30 06:20:16,224] {processor.py:163} INFO - Started process (PID=69) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:20:16,226] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:20:16,227] {logging_mixin.py:109} INFO - [2021-10-30 06:20:16,227] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:20:16,246] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:20:16,323] {logging_mixin.py:109} INFO - [2021-10-30 06:20:16,323] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:20:16,329] {logging_mixin.py:109} INFO - [2021-10-30 06:20:16,329] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:20:16,337] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 06:20:46,513] {processor.py:163} INFO - Started process (PID=72) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:20:46,515] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:20:46,517] {logging_mixin.py:109} INFO - [2021-10-30 06:20:46,517] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:20:46,539] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:20:46,624] {logging_mixin.py:109} INFO - [2021-10-30 06:20:46,623] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:20:46,631] {logging_mixin.py:109} INFO - [2021-10-30 06:20:46,630] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:20:46,638] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.128 seconds
+[2021-10-30 06:21:16,811] {processor.py:163} INFO - Started process (PID=75) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:21:16,813] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:21:16,815] {logging_mixin.py:109} INFO - [2021-10-30 06:21:16,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:21:16,835] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:21:16,920] {logging_mixin.py:109} INFO - [2021-10-30 06:21:16,920] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:21:16,926] {logging_mixin.py:109} INFO - [2021-10-30 06:21:16,926] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:21:16,933] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.125 seconds
+[2021-10-30 06:21:47,098] {processor.py:163} INFO - Started process (PID=78) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:21:47,102] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:21:47,105] {logging_mixin.py:109} INFO - [2021-10-30 06:21:47,105] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:21:47,130] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:21:47,216] {logging_mixin.py:109} INFO - [2021-10-30 06:21:47,216] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:21:47,224] {logging_mixin.py:109} INFO - [2021-10-30 06:21:47,224] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:21:47,231] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.137 seconds
+[2021-10-30 06:22:17,390] {processor.py:163} INFO - Started process (PID=81) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:22:17,393] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:22:17,394] {logging_mixin.py:109} INFO - [2021-10-30 06:22:17,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:22:17,412] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:22:17,494] {logging_mixin.py:109} INFO - [2021-10-30 06:22:17,494] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:22:17,501] {logging_mixin.py:109} INFO - [2021-10-30 06:22:17,501] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:22:17,510] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.122 seconds
+[2021-10-30 06:22:47,677] {processor.py:163} INFO - Started process (PID=84) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:22:47,679] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:22:47,680] {logging_mixin.py:109} INFO - [2021-10-30 06:22:47,680] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:22:47,698] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:22:47,776] {logging_mixin.py:109} INFO - [2021-10-30 06:22:47,776] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:22:47,783] {logging_mixin.py:109} INFO - [2021-10-30 06:22:47,783] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:22:47,792] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.118 seconds
+[2021-10-30 06:23:17,983] {processor.py:163} INFO - Started process (PID=87) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:23:17,986] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:23:17,987] {logging_mixin.py:109} INFO - [2021-10-30 06:23:17,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:23:18,006] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:23:18,092] {logging_mixin.py:109} INFO - [2021-10-30 06:23:18,092] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:23:18,097] {logging_mixin.py:109} INFO - [2021-10-30 06:23:18,097] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:23:18,106] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.127 seconds
+[2021-10-30 06:23:48,257] {processor.py:163} INFO - Started process (PID=90) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:23:48,260] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:23:48,261] {logging_mixin.py:109} INFO - [2021-10-30 06:23:48,261] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:23:48,280] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:23:48,366] {logging_mixin.py:109} INFO - [2021-10-30 06:23:48,366] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:23:48,373] {logging_mixin.py:109} INFO - [2021-10-30 06:23:48,373] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:23:48,381] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.125 seconds
+[2021-10-30 06:24:18,550] {processor.py:163} INFO - Started process (PID=93) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:24:18,554] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:24:18,556] {logging_mixin.py:109} INFO - [2021-10-30 06:24:18,556] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:24:18,574] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:24:18,653] {logging_mixin.py:109} INFO - [2021-10-30 06:24:18,653] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:24:18,660] {logging_mixin.py:109} INFO - [2021-10-30 06:24:18,660] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:24:18,668] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:24:48,849] {processor.py:163} INFO - Started process (PID=96) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:24:48,852] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:24:48,853] {logging_mixin.py:109} INFO - [2021-10-30 06:24:48,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:24:48,877] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:24:48,983] {logging_mixin.py:109} INFO - [2021-10-30 06:24:48,983] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:24:48,989] {logging_mixin.py:109} INFO - [2021-10-30 06:24:48,989] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:24:48,997] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.151 seconds
+[2021-10-30 06:25:19,127] {processor.py:163} INFO - Started process (PID=99) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:25:19,131] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:25:19,133] {logging_mixin.py:109} INFO - [2021-10-30 06:25:19,133] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:25:19,151] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:25:19,244] {logging_mixin.py:109} INFO - [2021-10-30 06:25:19,244] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:25:19,252] {logging_mixin.py:109} INFO - [2021-10-30 06:25:19,252] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:25:19,261] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.136 seconds
+[2021-10-30 06:25:50,396] {processor.py:163} INFO - Started process (PID=102) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:25:50,398] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:25:50,400] {logging_mixin.py:109} INFO - [2021-10-30 06:25:50,399] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:25:50,416] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:25:50,421] {logging_mixin.py:109} INFO - [2021-10-30 06:25:50,421] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:25:50,428] {logging_mixin.py:109} INFO - [2021-10-30 06:25:50,428] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:25:50,435] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.041 seconds
+[2021-10-30 06:26:20,765] {processor.py:163} INFO - Started process (PID=105) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:26:20,766] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:26:20,767] {logging_mixin.py:109} INFO - [2021-10-30 06:26:20,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:26:20,788] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:26:20,876] {logging_mixin.py:109} INFO - [2021-10-30 06:26:20,876] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:26:20,883] {logging_mixin.py:109} INFO - [2021-10-30 06:26:20,883] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:26:20,891] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.130 seconds
+[2021-10-30 06:26:51,153] {processor.py:163} INFO - Started process (PID=108) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:26:51,155] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:26:51,156] {logging_mixin.py:109} INFO - [2021-10-30 06:26:51,156] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:26:51,179] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:26:51,264] {logging_mixin.py:109} INFO - [2021-10-30 06:26:51,264] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:26:51,271] {logging_mixin.py:109} INFO - [2021-10-30 06:26:51,271] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:26:51,280] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.130 seconds
+[2021-10-30 06:27:21,547] {processor.py:163} INFO - Started process (PID=111) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:27:21,550] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:27:21,551] {logging_mixin.py:109} INFO - [2021-10-30 06:27:21,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:27:21,571] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:27:21,655] {logging_mixin.py:109} INFO - [2021-10-30 06:27:21,655] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:27:21,662] {logging_mixin.py:109} INFO - [2021-10-30 06:27:21,662] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:27:21,669] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.123 seconds
+[2021-10-30 06:27:51,947] {processor.py:163} INFO - Started process (PID=114) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:27:51,950] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:27:51,952] {logging_mixin.py:109} INFO - [2021-10-30 06:27:51,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:27:51,972] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:27:52,061] {logging_mixin.py:109} INFO - [2021-10-30 06:27:52,061] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:27:52,071] {logging_mixin.py:109} INFO - [2021-10-30 06:27:52,071] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:27:52,080] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.135 seconds
+[2021-10-30 06:28:22,371] {processor.py:163} INFO - Started process (PID=117) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:28:22,373] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:28:22,374] {logging_mixin.py:109} INFO - [2021-10-30 06:28:22,374] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:28:22,394] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:28:22,492] {logging_mixin.py:109} INFO - [2021-10-30 06:28:22,492] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:28:22,500] {logging_mixin.py:109} INFO - [2021-10-30 06:28:22,500] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:28:22,507] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.139 seconds
+[2021-10-30 06:28:52,791] {processor.py:163} INFO - Started process (PID=120) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:28:52,795] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:28:52,796] {logging_mixin.py:109} INFO - [2021-10-30 06:28:52,796] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:28:52,816] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:28:52,899] {logging_mixin.py:109} INFO - [2021-10-30 06:28:52,899] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:28:52,904] {logging_mixin.py:109} INFO - [2021-10-30 06:28:52,904] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:28:52,912] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.124 seconds
+[2021-10-30 06:29:23,196] {processor.py:163} INFO - Started process (PID=123) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:29:23,198] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:29:23,199] {logging_mixin.py:109} INFO - [2021-10-30 06:29:23,199] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:29:23,217] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:29:23,294] {logging_mixin.py:109} INFO - [2021-10-30 06:29:23,294] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:29:23,299] {logging_mixin.py:109} INFO - [2021-10-30 06:29:23,299] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:29:23,308] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.116 seconds
+[2021-10-30 06:29:53,615] {processor.py:163} INFO - Started process (PID=126) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:29:53,617] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:29:53,619] {logging_mixin.py:109} INFO - [2021-10-30 06:29:53,619] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:29:53,637] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:29:53,715] {logging_mixin.py:109} INFO - [2021-10-30 06:29:53,715] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:29:53,720] {logging_mixin.py:109} INFO - [2021-10-30 06:29:53,720] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:29:53,730] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 06:30:24,039] {processor.py:163} INFO - Started process (PID=129) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:30:24,044] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:30:24,048] {logging_mixin.py:109} INFO - [2021-10-30 06:30:24,048] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:30:24,127] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:30:24,315] {logging_mixin.py:109} INFO - [2021-10-30 06:30:24,315] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:30:24,326] {logging_mixin.py:109} INFO - [2021-10-30 06:30:24,326] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:30:24,335] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.315 seconds
+[2021-10-30 06:36:16,750] {processor.py:163} INFO - Started process (PID=20) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:36:16,758] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:36:16,761] {logging_mixin.py:109} INFO - [2021-10-30 06:36:16,760] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:36:16,845] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:36:17,314] {logging_mixin.py:109} INFO - [2021-10-30 06:36:17,313] {manager.py:496} INFO - Created Permission View: can edit on DAG:xcom_taskflow_dag
+[2021-10-30 06:36:17,324] {logging_mixin.py:109} INFO - [2021-10-30 06:36:17,324] {manager.py:496} INFO - Created Permission View: can read on DAG:xcom_taskflow_dag
+[2021-10-30 06:36:17,326] {logging_mixin.py:109} INFO - [2021-10-30 06:36:17,326] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:36:17,332] {logging_mixin.py:109} INFO - [2021-10-30 06:36:17,332] {dag.py:2408} INFO - Creating ORM DAG for xcom_taskflow_dag
+[2021-10-30 06:36:17,336] {logging_mixin.py:109} INFO - [2021-10-30 06:36:17,336] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:36:17,344] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.603 seconds
+[2021-10-30 06:36:47,734] {processor.py:163} INFO - Started process (PID=50) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:36:47,737] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:36:47,739] {logging_mixin.py:109} INFO - [2021-10-30 06:36:47,739] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:36:47,769] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:36:47,872] {logging_mixin.py:109} INFO - [2021-10-30 06:36:47,872] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:36:47,878] {logging_mixin.py:109} INFO - [2021-10-30 06:36:47,878] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:36:47,889] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.158 seconds
+[2021-10-30 06:37:18,035] {processor.py:163} INFO - Started process (PID=53) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:37:18,037] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:37:18,038] {logging_mixin.py:109} INFO - [2021-10-30 06:37:18,038] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:37:18,057] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:37:18,148] {logging_mixin.py:109} INFO - [2021-10-30 06:37:18,148] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:37:18,154] {logging_mixin.py:109} INFO - [2021-10-30 06:37:18,154] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:37:18,163] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.129 seconds
+[2021-10-30 06:37:48,333] {processor.py:163} INFO - Started process (PID=56) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:37:48,338] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:37:48,340] {logging_mixin.py:109} INFO - [2021-10-30 06:37:48,340] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:37:48,391] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:37:48,530] {logging_mixin.py:109} INFO - [2021-10-30 06:37:48,530] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:37:48,539] {logging_mixin.py:109} INFO - [2021-10-30 06:37:48,539] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:37:48,552] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.224 seconds
+[2021-10-30 06:38:19,592] {processor.py:163} INFO - Started process (PID=59) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:38:19,594] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:38:19,595] {logging_mixin.py:109} INFO - [2021-10-30 06:38:19,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:38:19,615] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:38:19,697] {logging_mixin.py:109} INFO - [2021-10-30 06:38:19,697] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:38:19,704] {logging_mixin.py:109} INFO - [2021-10-30 06:38:19,704] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:38:19,711] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:38:49,898] {processor.py:163} INFO - Started process (PID=62) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:38:49,901] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:38:49,902] {logging_mixin.py:109} INFO - [2021-10-30 06:38:49,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:38:49,922] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:38:50,019] {logging_mixin.py:109} INFO - [2021-10-30 06:38:50,019] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:38:50,029] {logging_mixin.py:109} INFO - [2021-10-30 06:38:50,029] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:38:50,043] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.147 seconds
+[2021-10-30 06:39:20,148] {processor.py:163} INFO - Started process (PID=65) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:39:20,150] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:39:20,152] {logging_mixin.py:109} INFO - [2021-10-30 06:39:20,151] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:39:20,170] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:39:20,249] {logging_mixin.py:109} INFO - [2021-10-30 06:39:20,249] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:39:20,256] {logging_mixin.py:109} INFO - [2021-10-30 06:39:20,256] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:39:20,266] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.120 seconds
+[2021-10-30 06:39:50,374] {processor.py:163} INFO - Started process (PID=76) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:39:50,377] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:39:50,379] {logging_mixin.py:109} INFO - [2021-10-30 06:39:50,379] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:39:50,398] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:39:50,479] {logging_mixin.py:109} INFO - [2021-10-30 06:39:50,479] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:39:50,488] {logging_mixin.py:109} INFO - [2021-10-30 06:39:50,488] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:39:50,506] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.134 seconds
+[2021-10-30 06:40:20,607] {processor.py:163} INFO - Started process (PID=79) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:40:20,609] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:40:20,611] {logging_mixin.py:109} INFO - [2021-10-30 06:40:20,611] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:40:20,629] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:40:20,716] {logging_mixin.py:109} INFO - [2021-10-30 06:40:20,716] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:40:20,724] {logging_mixin.py:109} INFO - [2021-10-30 06:40:20,724] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:40:20,736] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.130 seconds
+[2021-10-30 06:40:50,871] {processor.py:163} INFO - Started process (PID=84) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:40:50,874] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:40:50,876] {logging_mixin.py:109} INFO - [2021-10-30 06:40:50,876] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:40:50,894] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:40:50,973] {logging_mixin.py:109} INFO - [2021-10-30 06:40:50,973] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:40:50,981] {logging_mixin.py:109} INFO - [2021-10-30 06:40:50,981] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:40:50,989] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.119 seconds
+[2021-10-30 06:41:21,176] {processor.py:163} INFO - Started process (PID=87) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:41:21,178] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:41:21,179] {logging_mixin.py:109} INFO - [2021-10-30 06:41:21,179] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:41:21,205] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:41:21,289] {logging_mixin.py:109} INFO - [2021-10-30 06:41:21,289] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:41:21,296] {logging_mixin.py:109} INFO - [2021-10-30 06:41:21,296] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:41:21,303] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.129 seconds
+[2021-10-30 06:41:51,456] {processor.py:163} INFO - Started process (PID=96) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:41:51,459] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:41:51,460] {logging_mixin.py:109} INFO - [2021-10-30 06:41:51,460] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:41:51,478] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:41:51,572] {logging_mixin.py:109} INFO - [2021-10-30 06:41:51,572] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:41:51,578] {logging_mixin.py:109} INFO - [2021-10-30 06:41:51,578] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:41:51,584] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.132 seconds
+[2021-10-30 06:42:21,731] {processor.py:163} INFO - Started process (PID=99) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:42:21,733] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:42:21,734] {logging_mixin.py:109} INFO - [2021-10-30 06:42:21,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:42:21,753] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:42:21,836] {logging_mixin.py:109} INFO - [2021-10-30 06:42:21,836] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:42:21,842] {logging_mixin.py:109} INFO - [2021-10-30 06:42:21,842] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:42:21,850] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:42:52,041] {processor.py:163} INFO - Started process (PID=102) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:42:52,043] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:42:52,045] {logging_mixin.py:109} INFO - [2021-10-30 06:42:52,045] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:42:52,069] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:42:52,164] {logging_mixin.py:109} INFO - [2021-10-30 06:42:52,164] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:42:52,172] {logging_mixin.py:109} INFO - [2021-10-30 06:42:52,172] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:42:52,182] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.143 seconds
+[2021-10-30 06:43:22,344] {processor.py:163} INFO - Started process (PID=105) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:43:22,347] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:43:22,349] {logging_mixin.py:109} INFO - [2021-10-30 06:43:22,349] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:43:22,375] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:43:22,498] {logging_mixin.py:109} INFO - [2021-10-30 06:43:22,498] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:43:22,517] {logging_mixin.py:109} INFO - [2021-10-30 06:43:22,517] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:43:22,537] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.195 seconds
+[2021-10-30 06:43:53,669] {processor.py:163} INFO - Started process (PID=108) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:43:53,672] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:43:53,673] {logging_mixin.py:109} INFO - [2021-10-30 06:43:53,673] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:43:53,694] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:43:53,776] {logging_mixin.py:109} INFO - [2021-10-30 06:43:53,776] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:43:53,782] {logging_mixin.py:109} INFO - [2021-10-30 06:43:53,782] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:43:53,788] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.123 seconds
+[2021-10-30 06:44:23,973] {processor.py:163} INFO - Started process (PID=111) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:44:23,976] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:44:23,976] {logging_mixin.py:109} INFO - [2021-10-30 06:44:23,976] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:44:23,993] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:44:24,069] {logging_mixin.py:109} INFO - [2021-10-30 06:44:24,069] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:44:24,075] {logging_mixin.py:109} INFO - [2021-10-30 06:44:24,075] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:44:24,082] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.111 seconds
+[2021-10-30 06:44:54,289] {processor.py:163} INFO - Started process (PID=115) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:44:54,293] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:44:54,294] {logging_mixin.py:109} INFO - [2021-10-30 06:44:54,294] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:44:54,311] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:44:54,388] {logging_mixin.py:109} INFO - [2021-10-30 06:44:54,388] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:44:54,395] {logging_mixin.py:109} INFO - [2021-10-30 06:44:54,394] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:44:54,402] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.115 seconds
+[2021-10-30 06:45:24,580] {processor.py:163} INFO - Started process (PID=118) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:45:24,583] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:45:24,584] {logging_mixin.py:109} INFO - [2021-10-30 06:45:24,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:45:24,604] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:45:24,702] {logging_mixin.py:109} INFO - [2021-10-30 06:45:24,702] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:45:24,714] {logging_mixin.py:109} INFO - [2021-10-30 06:45:24,714] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:45:24,722] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.143 seconds
+[2021-10-30 06:45:54,874] {processor.py:163} INFO - Started process (PID=121) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:45:54,877] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:45:54,878] {logging_mixin.py:109} INFO - [2021-10-30 06:45:54,878] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:45:54,898] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:45:54,996] {logging_mixin.py:109} INFO - [2021-10-30 06:45:54,996] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:45:55,002] {logging_mixin.py:109} INFO - [2021-10-30 06:45:55,002] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:45:55,010] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.137 seconds
+[2021-10-30 06:46:25,210] {processor.py:163} INFO - Started process (PID=127) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:46:25,213] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:46:25,214] {logging_mixin.py:109} INFO - [2021-10-30 06:46:25,214] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:46:25,236] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:46:25,322] {logging_mixin.py:109} INFO - [2021-10-30 06:46:25,322] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:46:25,327] {logging_mixin.py:109} INFO - [2021-10-30 06:46:25,327] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:46:25,335] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.127 seconds
+[2021-10-30 06:46:55,518] {processor.py:163} INFO - Started process (PID=133) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:46:55,521] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:46:55,522] {logging_mixin.py:109} INFO - [2021-10-30 06:46:55,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:46:55,539] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:46:55,613] {logging_mixin.py:109} INFO - [2021-10-30 06:46:55,613] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:46:55,619] {logging_mixin.py:109} INFO - [2021-10-30 06:46:55,619] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:46:55,626] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.110 seconds
+[2021-10-30 06:47:25,894] {processor.py:163} INFO - Started process (PID=137) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:47:25,897] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:47:25,899] {logging_mixin.py:109} INFO - [2021-10-30 06:47:25,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:47:25,926] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:47:26,028] {logging_mixin.py:109} INFO - [2021-10-30 06:47:26,028] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:47:26,036] {logging_mixin.py:109} INFO - [2021-10-30 06:47:26,036] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:47:26,044] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.151 seconds
+[2021-10-30 06:47:56,173] {processor.py:163} INFO - Started process (PID=140) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:47:56,176] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:47:56,177] {logging_mixin.py:109} INFO - [2021-10-30 06:47:56,177] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:47:56,194] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:47:56,268] {logging_mixin.py:109} INFO - [2021-10-30 06:47:56,268] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:47:56,274] {logging_mixin.py:109} INFO - [2021-10-30 06:47:56,274] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:47:56,284] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.113 seconds
+[2021-10-30 06:48:26,455] {processor.py:163} INFO - Started process (PID=143) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:48:26,458] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:48:26,459] {logging_mixin.py:109} INFO - [2021-10-30 06:48:26,459] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:48:26,477] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:48:26,559] {logging_mixin.py:109} INFO - [2021-10-30 06:48:26,559] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:48:26,566] {logging_mixin.py:109} INFO - [2021-10-30 06:48:26,566] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:48:26,574] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:48:57,138] {processor.py:163} INFO - Started process (PID=149) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:48:57,141] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:48:57,142] {logging_mixin.py:109} INFO - [2021-10-30 06:48:57,142] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:48:57,166] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:48:57,239] {logging_mixin.py:109} INFO - [2021-10-30 06:48:57,239] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:48:57,244] {logging_mixin.py:109} INFO - [2021-10-30 06:48:57,244] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:48:57,253] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 06:49:27,784] {processor.py:163} INFO - Started process (PID=161) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:49:27,785] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:49:27,786] {logging_mixin.py:109} INFO - [2021-10-30 06:49:27,786] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:49:27,804] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:49:27,897] {logging_mixin.py:109} INFO - [2021-10-30 06:49:27,897] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:49:27,902] {logging_mixin.py:109} INFO - [2021-10-30 06:49:27,902] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:49:27,909] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.128 seconds
+[2021-10-30 06:49:58,298] {processor.py:163} INFO - Started process (PID=167) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:49:58,315] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:49:58,316] {logging_mixin.py:109} INFO - [2021-10-30 06:49:58,316] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:49:58,335] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:49:58,421] {logging_mixin.py:109} INFO - [2021-10-30 06:49:58,421] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:49:58,430] {logging_mixin.py:109} INFO - [2021-10-30 06:49:58,430] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:49:58,441] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.145 seconds
+[2021-10-30 06:50:28,705] {processor.py:163} INFO - Started process (PID=179) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:50:28,707] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:50:28,708] {logging_mixin.py:109} INFO - [2021-10-30 06:50:28,708] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:50:28,726] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:50:28,802] {logging_mixin.py:109} INFO - [2021-10-30 06:50:28,802] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:50:28,808] {logging_mixin.py:109} INFO - [2021-10-30 06:50:28,808] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:50:28,817] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.114 seconds
+[2021-10-30 06:50:59,175] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:50:59,179] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:50:59,181] {logging_mixin.py:109} INFO - [2021-10-30 06:50:59,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:50:59,199] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:50:59,275] {logging_mixin.py:109} INFO - [2021-10-30 06:50:59,275] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:50:59,283] {logging_mixin.py:109} INFO - [2021-10-30 06:50:59,283] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:50:59,290] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 06:51:29,545] {processor.py:163} INFO - Started process (PID=185) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:51:29,547] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:51:29,548] {logging_mixin.py:109} INFO - [2021-10-30 06:51:29,548] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:51:29,567] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:51:29,663] {logging_mixin.py:109} INFO - [2021-10-30 06:51:29,663] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:51:29,670] {logging_mixin.py:109} INFO - [2021-10-30 06:51:29,670] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:51:29,681] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.138 seconds
+[2021-10-30 06:51:59,936] {processor.py:163} INFO - Started process (PID=189) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:51:59,939] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:51:59,941] {logging_mixin.py:109} INFO - [2021-10-30 06:51:59,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:51:59,965] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:52:00,048] {logging_mixin.py:109} INFO - [2021-10-30 06:52:00,048] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:52:00,054] {logging_mixin.py:109} INFO - [2021-10-30 06:52:00,054] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:52:00,062] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.128 seconds
+[2021-10-30 06:52:30,235] {processor.py:163} INFO - Started process (PID=192) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:52:30,237] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:52:30,238] {logging_mixin.py:109} INFO - [2021-10-30 06:52:30,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:52:30,255] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:52:30,330] {logging_mixin.py:109} INFO - [2021-10-30 06:52:30,330] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:52:30,335] {logging_mixin.py:109} INFO - [2021-10-30 06:52:30,335] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:52:30,343] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.110 seconds
+[2021-10-30 06:53:00,567] {processor.py:163} INFO - Started process (PID=196) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:53:00,570] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:53:00,572] {logging_mixin.py:109} INFO - [2021-10-30 06:53:00,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:53:00,591] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:53:00,678] {logging_mixin.py:109} INFO - [2021-10-30 06:53:00,678] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:53:00,683] {logging_mixin.py:109} INFO - [2021-10-30 06:53:00,683] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:53:00,690] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.126 seconds
+[2021-10-30 06:53:30,855] {processor.py:163} INFO - Started process (PID=203) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:53:30,859] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:53:30,860] {logging_mixin.py:109} INFO - [2021-10-30 06:53:30,860] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:53:30,886] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:53:30,979] {logging_mixin.py:109} INFO - [2021-10-30 06:53:30,979] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:53:30,986] {logging_mixin.py:109} INFO - [2021-10-30 06:53:30,986] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:53:30,994] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.142 seconds
+[2021-10-30 06:54:01,134] {processor.py:163} INFO - Started process (PID=207) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:54:01,137] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:54:01,138] {logging_mixin.py:109} INFO - [2021-10-30 06:54:01,138] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:54:01,157] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:54:01,234] {logging_mixin.py:109} INFO - [2021-10-30 06:54:01,234] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:54:01,241] {logging_mixin.py:109} INFO - [2021-10-30 06:54:01,241] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:54:01,249] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.118 seconds
+[2021-10-30 06:54:31,376] {processor.py:163} INFO - Started process (PID=210) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:54:31,378] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:54:31,379] {logging_mixin.py:109} INFO - [2021-10-30 06:54:31,379] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:54:31,397] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:54:31,481] {logging_mixin.py:109} INFO - [2021-10-30 06:54:31,481] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:54:31,488] {logging_mixin.py:109} INFO - [2021-10-30 06:54:31,488] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:54:31,495] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 06:55:01,701] {processor.py:163} INFO - Started process (PID=213) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:55:01,703] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:55:01,705] {logging_mixin.py:109} INFO - [2021-10-30 06:55:01,704] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:55:01,722] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:55:01,801] {logging_mixin.py:109} INFO - [2021-10-30 06:55:01,801] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:55:01,808] {logging_mixin.py:109} INFO - [2021-10-30 06:55:01,808] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:55:01,815] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.116 seconds
+[2021-10-30 06:55:32,013] {processor.py:163} INFO - Started process (PID=216) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:55:32,016] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:55:32,017] {logging_mixin.py:109} INFO - [2021-10-30 06:55:32,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:55:32,032] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:55:32,121] {logging_mixin.py:109} INFO - [2021-10-30 06:55:32,121] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:55:32,127] {logging_mixin.py:109} INFO - [2021-10-30 06:55:32,127] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:55:32,136] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.124 seconds
+[2021-10-30 06:56:02,369] {processor.py:163} INFO - Started process (PID=222) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:56:02,373] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:56:02,375] {logging_mixin.py:109} INFO - [2021-10-30 06:56:02,375] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:56:02,398] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:56:02,497] {logging_mixin.py:109} INFO - [2021-10-30 06:56:02,497] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:56:02,505] {logging_mixin.py:109} INFO - [2021-10-30 06:56:02,505] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:56:02,513] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.148 seconds
+[2021-10-30 06:56:32,730] {processor.py:163} INFO - Started process (PID=225) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:56:32,732] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:56:32,733] {logging_mixin.py:109} INFO - [2021-10-30 06:56:32,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:56:32,752] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:56:32,839] {logging_mixin.py:109} INFO - [2021-10-30 06:56:32,839] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:56:32,847] {logging_mixin.py:109} INFO - [2021-10-30 06:56:32,847] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:56:32,859] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.130 seconds
+[2021-10-30 06:57:03,155] {processor.py:163} INFO - Started process (PID=228) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:57:03,156] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:57:03,158] {logging_mixin.py:109} INFO - [2021-10-30 06:57:03,158] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:57:03,177] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:57:03,257] {logging_mixin.py:109} INFO - [2021-10-30 06:57:03,257] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:57:03,262] {logging_mixin.py:109} INFO - [2021-10-30 06:57:03,262] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:57:03,269] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 06:57:31,547] {processor.py:163} INFO - Started process (PID=231) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:57:31,550] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:57:31,551] {logging_mixin.py:109} INFO - [2021-10-30 06:57:31,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:57:31,586] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:57:31,589] {logging_mixin.py:109} INFO - [2021-10-30 06:57:31,589] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:57:31,597] {logging_mixin.py:109} INFO - [2021-10-30 06:57:31,597] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:57:31,610] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.066 seconds
+[2021-10-30 06:58:02,028] {processor.py:163} INFO - Started process (PID=234) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:58:02,030] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:58:02,032] {logging_mixin.py:109} INFO - [2021-10-30 06:58:02,032] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:58:02,053] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:58:02,138] {logging_mixin.py:109} INFO - [2021-10-30 06:58:02,138] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:58:02,143] {logging_mixin.py:109} INFO - [2021-10-30 06:58:02,143] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:58:02,152] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.127 seconds
+[2021-10-30 06:58:32,636] {processor.py:163} INFO - Started process (PID=237) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:58:32,639] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:58:32,640] {logging_mixin.py:109} INFO - [2021-10-30 06:58:32,640] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:58:32,664] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:58:32,764] {logging_mixin.py:109} INFO - [2021-10-30 06:58:32,764] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:58:32,772] {logging_mixin.py:109} INFO - [2021-10-30 06:58:32,772] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:58:32,780] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.146 seconds
+[2021-10-30 06:59:03,210] {processor.py:163} INFO - Started process (PID=240) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:59:03,212] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:59:03,214] {logging_mixin.py:109} INFO - [2021-10-30 06:59:03,214] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:59:03,236] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:59:03,320] {logging_mixin.py:109} INFO - [2021-10-30 06:59:03,320] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:59:03,326] {logging_mixin.py:109} INFO - [2021-10-30 06:59:03,326] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:59:03,333] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.126 seconds
+[2021-10-30 06:59:33,804] {processor.py:163} INFO - Started process (PID=243) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:59:33,806] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 06:59:33,807] {logging_mixin.py:109} INFO - [2021-10-30 06:59:33,807] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:59:33,824] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 06:59:33,905] {logging_mixin.py:109} INFO - [2021-10-30 06:59:33,905] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 06:59:33,911] {logging_mixin.py:109} INFO - [2021-10-30 06:59:33,911] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 06:59:33,919] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.116 seconds
+[2021-10-30 07:00:04,418] {processor.py:163} INFO - Started process (PID=246) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:00:04,420] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:00:04,421] {logging_mixin.py:109} INFO - [2021-10-30 07:00:04,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:00:04,441] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:00:04,540] {logging_mixin.py:109} INFO - [2021-10-30 07:00:04,539] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:00:04,547] {logging_mixin.py:109} INFO - [2021-10-30 07:00:04,547] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:00:04,554] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.138 seconds
+[2021-10-30 07:00:34,993] {processor.py:163} INFO - Started process (PID=249) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:00:34,995] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:00:34,996] {logging_mixin.py:109} INFO - [2021-10-30 07:00:34,996] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:00:35,018] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:00:35,096] {logging_mixin.py:109} INFO - [2021-10-30 07:00:35,096] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:00:35,102] {logging_mixin.py:109} INFO - [2021-10-30 07:00:35,102] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:00:35,109] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.118 seconds
+[2021-10-30 07:01:05,579] {processor.py:163} INFO - Started process (PID=252) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:01:05,582] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:01:05,583] {logging_mixin.py:109} INFO - [2021-10-30 07:01:05,583] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:01:05,606] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:01:05,684] {logging_mixin.py:109} INFO - [2021-10-30 07:01:05,684] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:01:05,691] {logging_mixin.py:109} INFO - [2021-10-30 07:01:05,691] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:01:05,698] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.121 seconds
+[2021-10-30 07:01:36,160] {processor.py:163} INFO - Started process (PID=255) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:01:36,162] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:01:36,162] {logging_mixin.py:109} INFO - [2021-10-30 07:01:36,162] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:01:36,181] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:01:36,267] {logging_mixin.py:109} INFO - [2021-10-30 07:01:36,267] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:01:36,273] {logging_mixin.py:109} INFO - [2021-10-30 07:01:36,273] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:01:36,284] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.126 seconds
+[2021-10-30 07:02:06,772] {processor.py:163} INFO - Started process (PID=258) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:02:06,775] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:02:06,776] {logging_mixin.py:109} INFO - [2021-10-30 07:02:06,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:02:06,797] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:02:06,880] {logging_mixin.py:109} INFO - [2021-10-30 07:02:06,880] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:02:06,887] {logging_mixin.py:109} INFO - [2021-10-30 07:02:06,887] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:02:06,895] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.125 seconds
+[2021-10-30 07:02:37,370] {processor.py:163} INFO - Started process (PID=261) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:02:37,374] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:02:37,375] {logging_mixin.py:109} INFO - [2021-10-30 07:02:37,375] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:02:37,393] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:02:37,467] {logging_mixin.py:109} INFO - [2021-10-30 07:02:37,467] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:02:37,473] {logging_mixin.py:109} INFO - [2021-10-30 07:02:37,473] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:02:37,482] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.115 seconds
+[2021-10-30 07:03:07,959] {processor.py:163} INFO - Started process (PID=264) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:03:07,961] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:03:07,962] {logging_mixin.py:109} INFO - [2021-10-30 07:03:07,962] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:03:07,980] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:03:08,065] {logging_mixin.py:109} INFO - [2021-10-30 07:03:08,065] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:03:08,090] {logging_mixin.py:109} INFO - [2021-10-30 07:03:08,090] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:03:08,100] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.142 seconds
+[2021-10-30 07:03:38,602] {processor.py:163} INFO - Started process (PID=267) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:03:38,607] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:03:38,609] {logging_mixin.py:109} INFO - [2021-10-30 07:03:38,609] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:03:38,637] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:03:38,795] {logging_mixin.py:109} INFO - [2021-10-30 07:03:38,795] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:03:38,803] {logging_mixin.py:109} INFO - [2021-10-30 07:03:38,803] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:03:38,820] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.221 seconds
+[2021-10-30 07:04:09,029] {processor.py:163} INFO - Started process (PID=270) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:04:09,032] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:04:09,033] {logging_mixin.py:109} INFO - [2021-10-30 07:04:09,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:04:09,054] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:04:09,143] {logging_mixin.py:109} INFO - [2021-10-30 07:04:09,143] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:04:09,152] {logging_mixin.py:109} INFO - [2021-10-30 07:04:09,152] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:04:09,162] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.135 seconds
+[2021-10-30 07:04:39,312] {processor.py:163} INFO - Started process (PID=273) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:04:39,315] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:04:39,317] {logging_mixin.py:109} INFO - [2021-10-30 07:04:39,316] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:04:39,333] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:04:39,425] {logging_mixin.py:109} INFO - [2021-10-30 07:04:39,425] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:04:39,434] {logging_mixin.py:109} INFO - [2021-10-30 07:04:39,434] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:04:39,442] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.132 seconds
+[2021-10-30 07:05:09,591] {processor.py:163} INFO - Started process (PID=276) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:05:09,593] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:05:09,594] {logging_mixin.py:109} INFO - [2021-10-30 07:05:09,594] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:05:09,614] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:05:09,704] {logging_mixin.py:109} INFO - [2021-10-30 07:05:09,704] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:05:09,709] {logging_mixin.py:109} INFO - [2021-10-30 07:05:09,709] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:05:09,717] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.128 seconds
+[2021-10-30 07:05:39,854] {processor.py:163} INFO - Started process (PID=279) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:05:39,857] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:05:39,859] {logging_mixin.py:109} INFO - [2021-10-30 07:05:39,859] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:05:39,884] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:05:39,967] {logging_mixin.py:109} INFO - [2021-10-30 07:05:39,967] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:05:39,974] {logging_mixin.py:109} INFO - [2021-10-30 07:05:39,974] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:05:39,986] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.134 seconds
+[2021-10-30 07:06:10,126] {processor.py:163} INFO - Started process (PID=282) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:06:10,129] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:06:10,131] {logging_mixin.py:109} INFO - [2021-10-30 07:06:10,131] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:06:10,147] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:06:10,222] {logging_mixin.py:109} INFO - [2021-10-30 07:06:10,221] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:06:10,228] {logging_mixin.py:109} INFO - [2021-10-30 07:06:10,228] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:06:10,238] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.114 seconds
+[2021-10-30 07:06:40,990] {processor.py:163} INFO - Started process (PID=301) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:06:40,992] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:06:40,994] {logging_mixin.py:109} INFO - [2021-10-30 07:06:40,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:06:41,018] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:06:41,107] {logging_mixin.py:109} INFO - [2021-10-30 07:06:41,107] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:06:41,114] {logging_mixin.py:109} INFO - [2021-10-30 07:06:41,114] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:06:41,121] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.134 seconds
+[2021-10-30 07:07:02,632] {processor.py:163} INFO - Started process (PID=305) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:02,635] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:07:02,636] {logging_mixin.py:109} INFO - [2021-10-30 07:07:02,636] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:02,670] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:02,673] {logging_mixin.py:109} INFO - [2021-10-30 07:07:02,673] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:07:02,685] {logging_mixin.py:109} INFO - [2021-10-30 07:07:02,685] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:07:02,700] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.072 seconds
+[2021-10-30 07:07:23,980] {processor.py:163} INFO - Started process (PID=309) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:23,984] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:07:23,986] {logging_mixin.py:109} INFO - [2021-10-30 07:07:23,986] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:24,018] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:24,102] {logging_mixin.py:109} INFO - [2021-10-30 07:07:24,102] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:07:24,110] {logging_mixin.py:109} INFO - [2021-10-30 07:07:24,110] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:07:24,120] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.143 seconds
+[2021-10-30 07:07:54,383] {processor.py:163} INFO - Started process (PID=313) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:54,386] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:07:54,387] {logging_mixin.py:109} INFO - [2021-10-30 07:07:54,387] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:54,407] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:07:54,498] {logging_mixin.py:109} INFO - [2021-10-30 07:07:54,498] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:07:54,504] {logging_mixin.py:109} INFO - [2021-10-30 07:07:54,504] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:07:54,511] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.130 seconds
+[2021-10-30 07:08:24,801] {processor.py:163} INFO - Started process (PID=317) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:08:24,803] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:08:24,804] {logging_mixin.py:109} INFO - [2021-10-30 07:08:24,804] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:08:24,823] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:08:24,937] {logging_mixin.py:109} INFO - [2021-10-30 07:08:24,937] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:08:24,943] {logging_mixin.py:109} INFO - [2021-10-30 07:08:24,943] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:08:24,953] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.155 seconds
+[2021-10-30 07:08:55,271] {processor.py:163} INFO - Started process (PID=321) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:08:55,273] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:08:55,276] {logging_mixin.py:109} INFO - [2021-10-30 07:08:55,275] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:08:55,302] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:08:55,372] {logging_mixin.py:109} INFO - [2021-10-30 07:08:55,372] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:08:55,377] {logging_mixin.py:109} INFO - [2021-10-30 07:08:55,377] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:08:55,383] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 07:09:25,723] {processor.py:163} INFO - Started process (PID=325) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:09:25,726] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:09:25,729] {logging_mixin.py:109} INFO - [2021-10-30 07:09:25,729] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:09:25,754] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:09:25,825] {logging_mixin.py:109} INFO - [2021-10-30 07:09:25,824] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:09:25,830] {logging_mixin.py:109} INFO - [2021-10-30 07:09:25,830] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:09:25,836] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 07:09:56,135] {processor.py:163} INFO - Started process (PID=329) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:09:56,138] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:09:56,140] {logging_mixin.py:109} INFO - [2021-10-30 07:09:56,140] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:09:56,170] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:09:56,243] {logging_mixin.py:109} INFO - [2021-10-30 07:09:56,243] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:09:56,248] {logging_mixin.py:109} INFO - [2021-10-30 07:09:56,248] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:09:56,254] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.122 seconds
+[2021-10-30 07:10:26,559] {processor.py:163} INFO - Started process (PID=333) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:10:26,561] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:10:26,562] {logging_mixin.py:109} INFO - [2021-10-30 07:10:26,562] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:10:26,581] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:10:26,661] {logging_mixin.py:109} INFO - [2021-10-30 07:10:26,661] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:10:26,666] {logging_mixin.py:109} INFO - [2021-10-30 07:10:26,666] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:10:26,675] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.118 seconds
+[2021-10-30 07:10:56,813] {processor.py:163} INFO - Started process (PID=337) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:10:56,816] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:10:56,818] {logging_mixin.py:109} INFO - [2021-10-30 07:10:56,818] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:10:56,844] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:10:56,917] {logging_mixin.py:109} INFO - [2021-10-30 07:10:56,917] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:10:56,923] {logging_mixin.py:109} INFO - [2021-10-30 07:10:56,923] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:10:56,930] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.120 seconds
+[2021-10-30 07:11:27,090] {processor.py:163} INFO - Started process (PID=341) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:11:27,092] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:11:27,094] {logging_mixin.py:109} INFO - [2021-10-30 07:11:27,094] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:11:27,111] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:11:27,194] {logging_mixin.py:109} INFO - [2021-10-30 07:11:27,194] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:11:27,200] {logging_mixin.py:109} INFO - [2021-10-30 07:11:27,200] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:11:27,207] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.120 seconds
+[2021-10-30 07:11:57,360] {processor.py:163} INFO - Started process (PID=345) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:11:57,364] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:11:57,365] {logging_mixin.py:109} INFO - [2021-10-30 07:11:57,365] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:11:57,389] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:11:57,466] {logging_mixin.py:109} INFO - [2021-10-30 07:11:57,466] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:11:57,472] {logging_mixin.py:109} INFO - [2021-10-30 07:11:57,472] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:11:57,478] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.122 seconds
+[2021-10-30 07:12:27,637] {processor.py:163} INFO - Started process (PID=349) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:12:27,639] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:12:27,641] {logging_mixin.py:109} INFO - [2021-10-30 07:12:27,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:12:27,662] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:12:27,730] {logging_mixin.py:109} INFO - [2021-10-30 07:12:27,730] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:12:27,735] {logging_mixin.py:109} INFO - [2021-10-30 07:12:27,735] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:12:27,741] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.108 seconds
+[2021-10-30 07:12:57,930] {processor.py:163} INFO - Started process (PID=353) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:12:57,934] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:12:57,936] {logging_mixin.py:109} INFO - [2021-10-30 07:12:57,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:12:57,963] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:12:58,033] {logging_mixin.py:109} INFO - [2021-10-30 07:12:58,033] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:12:58,039] {logging_mixin.py:109} INFO - [2021-10-30 07:12:58,038] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:12:58,044] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.118 seconds
+[2021-10-30 07:13:28,186] {processor.py:163} INFO - Started process (PID=357) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:13:28,189] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:13:28,191] {logging_mixin.py:109} INFO - [2021-10-30 07:13:28,191] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:13:28,218] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:13:28,288] {logging_mixin.py:109} INFO - [2021-10-30 07:13:28,288] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:13:28,294] {logging_mixin.py:109} INFO - [2021-10-30 07:13:28,294] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:13:28,299] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 07:13:58,445] {processor.py:163} INFO - Started process (PID=361) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:13:58,448] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:13:58,451] {logging_mixin.py:109} INFO - [2021-10-30 07:13:58,451] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:13:58,476] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:13:58,545] {logging_mixin.py:109} INFO - [2021-10-30 07:13:58,545] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:13:58,550] {logging_mixin.py:109} INFO - [2021-10-30 07:13:58,550] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:13:58,556] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.115 seconds
+[2021-10-30 07:14:28,728] {processor.py:163} INFO - Started process (PID=365) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:14:28,732] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:14:28,733] {logging_mixin.py:109} INFO - [2021-10-30 07:14:28,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:14:28,759] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:14:28,828] {logging_mixin.py:109} INFO - [2021-10-30 07:14:28,828] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:14:28,833] {logging_mixin.py:109} INFO - [2021-10-30 07:14:28,833] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:14:28,840] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.116 seconds
+[2021-10-30 07:14:59,011] {processor.py:163} INFO - Started process (PID=369) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:14:59,015] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:14:59,016] {logging_mixin.py:109} INFO - [2021-10-30 07:14:59,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:14:59,033] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:14:59,105] {logging_mixin.py:109} INFO - [2021-10-30 07:14:59,105] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:14:59,110] {logging_mixin.py:109} INFO - [2021-10-30 07:14:59,110] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:14:59,117] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.108 seconds
+[2021-10-30 07:15:29,313] {processor.py:163} INFO - Started process (PID=373) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:15:29,316] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:15:29,318] {logging_mixin.py:109} INFO - [2021-10-30 07:15:29,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:15:29,343] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:15:29,413] {logging_mixin.py:109} INFO - [2021-10-30 07:15:29,413] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:15:29,418] {logging_mixin.py:109} INFO - [2021-10-30 07:15:29,418] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:15:29,424] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.114 seconds
+[2021-10-30 07:15:59,586] {processor.py:163} INFO - Started process (PID=377) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:15:59,588] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:15:59,589] {logging_mixin.py:109} INFO - [2021-10-30 07:15:59,589] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:15:59,607] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:15:59,673] {logging_mixin.py:109} INFO - [2021-10-30 07:15:59,673] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:15:59,678] {logging_mixin.py:109} INFO - [2021-10-30 07:15:59,678] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:15:59,684] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.101 seconds
+[2021-10-30 07:16:30,909] {processor.py:163} INFO - Started process (PID=381) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:16:30,913] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:16:30,915] {logging_mixin.py:109} INFO - [2021-10-30 07:16:30,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:16:30,946] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:16:31,032] {logging_mixin.py:109} INFO - [2021-10-30 07:16:31,032] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:16:31,037] {logging_mixin.py:109} INFO - [2021-10-30 07:16:31,037] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:16:31,043] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.138 seconds
+[2021-10-30 07:17:01,207] {processor.py:163} INFO - Started process (PID=385) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:17:01,208] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:17:01,210] {logging_mixin.py:109} INFO - [2021-10-30 07:17:01,210] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:17:01,226] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:17:01,305] {logging_mixin.py:109} INFO - [2021-10-30 07:17:01,305] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:17:01,310] {logging_mixin.py:109} INFO - [2021-10-30 07:17:01,310] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:17:01,317] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.112 seconds
+[2021-10-30 07:17:31,601] {processor.py:163} INFO - Started process (PID=389) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:17:31,603] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:17:31,603] {logging_mixin.py:109} INFO - [2021-10-30 07:17:31,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:17:31,617] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:17:31,680] {logging_mixin.py:109} INFO - [2021-10-30 07:17:31,679] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:17:31,684] {logging_mixin.py:109} INFO - [2021-10-30 07:17:31,684] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:17:31,691] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.091 seconds
+[2021-10-30 07:18:02,027] {processor.py:163} INFO - Started process (PID=393) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:18:02,029] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:18:02,030] {logging_mixin.py:109} INFO - [2021-10-30 07:18:02,030] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:18:02,049] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:18:02,117] {logging_mixin.py:109} INFO - [2021-10-30 07:18:02,117] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:18:02,122] {logging_mixin.py:109} INFO - [2021-10-30 07:18:02,122] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:18:02,128] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.104 seconds
+[2021-10-30 07:18:32,399] {processor.py:163} INFO - Started process (PID=397) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:18:32,404] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:18:32,405] {logging_mixin.py:109} INFO - [2021-10-30 07:18:32,405] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:18:32,430] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:18:32,500] {logging_mixin.py:109} INFO - [2021-10-30 07:18:32,500] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:18:32,505] {logging_mixin.py:109} INFO - [2021-10-30 07:18:32,505] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:18:32,511] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.115 seconds
+[2021-10-30 07:19:02,797] {processor.py:163} INFO - Started process (PID=401) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:19:02,801] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:19:02,803] {logging_mixin.py:109} INFO - [2021-10-30 07:19:02,803] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:19:02,830] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:19:02,901] {logging_mixin.py:109} INFO - [2021-10-30 07:19:02,901] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:19:02,906] {logging_mixin.py:109} INFO - [2021-10-30 07:19:02,906] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:19:02,913] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.119 seconds
+[2021-10-30 07:19:33,077] {processor.py:163} INFO - Started process (PID=405) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:19:33,080] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:19:33,083] {logging_mixin.py:109} INFO - [2021-10-30 07:19:33,083] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:19:33,103] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:19:33,179] {logging_mixin.py:109} INFO - [2021-10-30 07:19:33,179] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:19:33,184] {logging_mixin.py:109} INFO - [2021-10-30 07:19:33,184] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:19:33,190] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.114 seconds
+[2021-10-30 07:20:03,394] {processor.py:163} INFO - Started process (PID=409) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:20:03,398] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:20:03,400] {logging_mixin.py:109} INFO - [2021-10-30 07:20:03,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:20:03,428] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:20:03,502] {logging_mixin.py:109} INFO - [2021-10-30 07:20:03,502] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:20:03,507] {logging_mixin.py:109} INFO - [2021-10-30 07:20:03,507] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:20:03,513] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.122 seconds
+[2021-10-30 07:20:33,705] {processor.py:163} INFO - Started process (PID=413) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:20:33,709] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:20:33,712] {logging_mixin.py:109} INFO - [2021-10-30 07:20:33,712] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:20:33,743] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:20:33,821] {logging_mixin.py:109} INFO - [2021-10-30 07:20:33,821] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:20:33,827] {logging_mixin.py:109} INFO - [2021-10-30 07:20:33,827] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:20:33,833] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.133 seconds
+[2021-10-30 07:21:04,045] {processor.py:163} INFO - Started process (PID=417) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:21:04,048] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:21:04,049] {logging_mixin.py:109} INFO - [2021-10-30 07:21:04,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:21:04,070] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:21:04,137] {logging_mixin.py:109} INFO - [2021-10-30 07:21:04,137] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:21:04,143] {logging_mixin.py:109} INFO - [2021-10-30 07:21:04,143] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:21:04,150] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.106 seconds
+[2021-10-30 07:21:34,398] {processor.py:163} INFO - Started process (PID=421) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:21:34,402] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:21:34,403] {logging_mixin.py:109} INFO - [2021-10-30 07:21:34,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:21:34,431] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:21:34,510] {logging_mixin.py:109} INFO - [2021-10-30 07:21:34,510] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:21:34,516] {logging_mixin.py:109} INFO - [2021-10-30 07:21:34,515] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:21:34,522] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.127 seconds
+[2021-10-30 07:22:04,829] {processor.py:163} INFO - Started process (PID=428) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:22:04,830] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:22:04,831] {logging_mixin.py:109} INFO - [2021-10-30 07:22:04,831] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:22:04,846] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:22:04,916] {logging_mixin.py:109} INFO - [2021-10-30 07:22:04,916] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:22:04,921] {logging_mixin.py:109} INFO - [2021-10-30 07:22:04,921] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:22:04,927] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.102 seconds
+[2021-10-30 07:22:35,176] {processor.py:163} INFO - Started process (PID=432) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:22:35,180] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:22:35,182] {logging_mixin.py:109} INFO - [2021-10-30 07:22:35,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:22:35,208] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:22:35,279] {logging_mixin.py:109} INFO - [2021-10-30 07:22:35,279] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:22:35,284] {logging_mixin.py:109} INFO - [2021-10-30 07:22:35,284] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:22:35,290] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.118 seconds
+[2021-10-30 07:23:05,489] {processor.py:163} INFO - Started process (PID=436) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:23:05,493] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:23:05,496] {logging_mixin.py:109} INFO - [2021-10-30 07:23:05,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:23:05,524] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:23:05,614] {logging_mixin.py:109} INFO - [2021-10-30 07:23:05,614] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:23:05,619] {logging_mixin.py:109} INFO - [2021-10-30 07:23:05,619] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:23:05,626] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.142 seconds
+[2021-10-30 07:23:35,823] {processor.py:163} INFO - Started process (PID=442) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:23:35,827] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:23:35,829] {logging_mixin.py:109} INFO - [2021-10-30 07:23:35,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:23:35,857] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:23:35,931] {logging_mixin.py:109} INFO - [2021-10-30 07:23:35,930] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:23:35,936] {logging_mixin.py:109} INFO - [2021-10-30 07:23:35,936] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:23:35,943] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.124 seconds
+[2021-10-30 07:24:06,169] {processor.py:163} INFO - Started process (PID=446) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:24:06,171] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:24:06,172] {logging_mixin.py:109} INFO - [2021-10-30 07:24:06,172] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:24:06,192] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:24:06,266] {logging_mixin.py:109} INFO - [2021-10-30 07:24:06,266] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:24:06,271] {logging_mixin.py:109} INFO - [2021-10-30 07:24:06,271] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:24:06,278] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.111 seconds
+[2021-10-30 07:24:36,597] {processor.py:163} INFO - Started process (PID=456) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:24:36,602] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:24:36,604] {logging_mixin.py:109} INFO - [2021-10-30 07:24:36,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:24:36,637] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:24:36,724] {logging_mixin.py:109} INFO - [2021-10-30 07:24:36,724] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:24:36,729] {logging_mixin.py:109} INFO - [2021-10-30 07:24:36,729] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:24:36,736] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.144 seconds
+[2021-10-30 07:25:07,097] {processor.py:163} INFO - Started process (PID=460) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:25:07,100] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:25:07,101] {logging_mixin.py:109} INFO - [2021-10-30 07:25:07,101] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:25:07,117] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:25:07,195] {logging_mixin.py:109} INFO - [2021-10-30 07:25:07,195] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:25:07,201] {logging_mixin.py:109} INFO - [2021-10-30 07:25:07,201] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:25:07,208] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.112 seconds
+[2021-10-30 07:25:37,801] {processor.py:163} INFO - Started process (PID=464) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:25:37,805] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:25:37,807] {logging_mixin.py:109} INFO - [2021-10-30 07:25:37,807] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:25:37,827] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:25:37,920] {logging_mixin.py:109} INFO - [2021-10-30 07:25:37,919] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:25:37,926] {logging_mixin.py:109} INFO - [2021-10-30 07:25:37,925] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:25:37,932] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.134 seconds
+[2021-10-30 07:26:08,246] {processor.py:163} INFO - Started process (PID=471) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:26:08,248] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:26:08,249] {logging_mixin.py:109} INFO - [2021-10-30 07:26:08,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:26:08,268] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:26:08,348] {logging_mixin.py:109} INFO - [2021-10-30 07:26:08,348] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:26:08,354] {logging_mixin.py:109} INFO - [2021-10-30 07:26:08,353] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:26:08,360] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.117 seconds
+[2021-10-30 07:26:38,591] {processor.py:163} INFO - Started process (PID=475) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:26:38,593] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:26:38,594] {logging_mixin.py:109} INFO - [2021-10-30 07:26:38,594] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:26:38,612] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:26:38,685] {logging_mixin.py:109} INFO - [2021-10-30 07:26:38,685] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:26:38,691] {logging_mixin.py:109} INFO - [2021-10-30 07:26:38,691] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:26:38,698] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.109 seconds
+[2021-10-30 07:27:08,862] {processor.py:163} INFO - Started process (PID=479) to work on /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:27:08,865] {processor.py:620} INFO - Processing file /opt/airflow/dags/xcom_taskflow_dag.py for tasks to queue
+[2021-10-30 07:27:08,867] {logging_mixin.py:109} INFO - [2021-10-30 07:27:08,867] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:27:08,884] {processor.py:632} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /opt/airflow/dags/xcom_taskflow_dag.py
+[2021-10-30 07:27:08,977] {logging_mixin.py:109} INFO - [2021-10-30 07:27:08,977] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-30 07:27:08,984] {logging_mixin.py:109} INFO - [2021-10-30 07:27:08,984] {dag.py:2914} INFO - Setting next_dagrun for xcom_taskflow_dag to 2021-10-29 00:00:00+00:00
+[2021-10-30 07:27:08,992] {processor.py:171} INFO - Processing /opt/airflow/dags/xcom_taskflow_dag.py took 0.132 seconds
