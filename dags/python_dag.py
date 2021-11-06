@@ -1,5 +1,7 @@
 from airflow.decorators import dag, task
 from datetime import datetime
+from airflow.providers.mysql.operators.mysql import MySqlOperator
+
 import json
 
 default_args = {
@@ -9,6 +11,11 @@ default_args = {
 def taskflow():
     @task
     def extract():
+        #sql = "SELECT * FROM departments"
+        #h = MySqlHook('mysql_default')
+        #df = h.get_pandas_df(sql)
+        #print(df)
+        #return df
         data_string = '{"1001": 301.27, "1002": 433.21, "1003": 502.22}'
         return json.loads(data_string)
     
