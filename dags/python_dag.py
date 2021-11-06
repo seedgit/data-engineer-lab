@@ -1,36 +1,45 @@
 from airflow.decorators import dag, task
 from datetime import datetime
-from airflow.providers.mysql.operators.mysql import MySqlOperator
-
-import json
+from airflow.providers.mysql.hooks.mysql import MySqlHook
 
 default_args = {
     'start_date': datetime(2021, 1, 1)
 }
 @dag('python_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
-def taskflow():
+def myTask():
     @task
-    def extract():
-        #sql = "SELECT * FROM departments"
-        #h = MySqlHook('mysql_default')
-        #df = h.get_pandas_df(sql)
-        #print(df)
-        #return df
-        data_string = '{"1001": 301.27, "1002": 433.21, "1003": 502.22}'
-        return json.loads(data_string)
+    def extract_from_binance():
+        import pandas as pd
+        import requests
+        res = requests.get('https://api.binance.com/api/v3/exchangeInfo')
+        columns = ['symbol', 'baseAsset', 'quoteAsset']
+        data = []
+        for symbo in res.json()['symbols']:
+            #print(symbo['symbol'], symbo['baseAsset'], symbo['quoteAsset'])
+            data.append([symbo['symbol'], symbo['baseAsset'], symbo['quoteAsset']])
+        df = pd.DataFrame(data, columns=columns)
+        #print(df.describe())
+        return df.to_json()
+    @task
+    def transform_to_crosstab(val):
+        import pandas as pd
+        df = pd.read_json(val)
+        df2 = pd.crosstab(df.baseAsset, df.quoteAsset)
+        return df2.to_json()
+    @task
+    def transform_to_watchlist(val):
+        import pandas as pd
+        df2 = pd.read_json(val)
+        return {'watchlist': list(df2[df2['USDT'] == 0].index)}
     
     @task
-    def transfrom(order_data):
-        print(type(order_data))
-        total_order_value = 0
-        for value in order_data.values():
-            total_order_value += value
-        return {"total_order_value": total_order_value}
+    def load_to_mysql(val):
+        #from airflow.providers.mysql.hooks.mysql import MySqlHook
+        hook = MySqlHook(mysql_conn_id='mysql_testdb')
+        print(hook.get_pandas_df("SELECT NOW()"))
 
-    @task
-    def loading():
-        print('Loading')
 
-    transfrom(extract())
+    
+    load_to_mysql(transform_to_watchlist(transform_to_crosstab(extract_from_binance())))
 
-dag = taskflow()
+dag = myTask()
