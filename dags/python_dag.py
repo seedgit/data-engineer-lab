@@ -31,14 +31,11 @@ def myTask():
         import pandas as pd
         df2 = pd.read_json(val)
         return {'watchlist': list(df2[df2['USDT'] == 0].index)}
-    
     @task
     def load_to_mysql(val):
         #from airflow.providers.mysql.hooks.mysql import MySqlHook
         hook = MySqlHook(mysql_conn_id='mysql_testdb')
         print(hook.get_pandas_df("SELECT NOW()"))
-
-
     
     load_to_mysql(transform_to_watchlist(transform_to_crosstab(extract_from_binance())))
 
